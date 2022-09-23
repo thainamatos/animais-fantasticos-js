@@ -1,0 +1,10 @@
+.dropdown-menu {
+    position: absolute;
+    background: #eb5e28;
+    border: 2px solid #fefae0;
+    z-index: 200;
+}
+
+.dropdown-menu li a:hover{
+    transform: scale(1.05);
+}
