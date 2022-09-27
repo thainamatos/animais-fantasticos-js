@@ -184,7 +184,7 @@ body {
 }
 
 @media (max-width: 700px) {
-  body {
+  .grid-container {
     grid-template-columns: 1fr;
   }
   .menu,
@@ -193,8 +193,9 @@ body {
     grid-column: 1;
   }
   .grid-section {
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 230px 1fr;
     grid-gap: 10px;
+
   }
   .animais-lista {
     grid-column: 1;
@@ -215,7 +216,8 @@ body {
   }
 }
 
-/*navegação por tabs*/
+/*navegaçã
+o por tabs*/
 
 .js [data-tab="content"] section {
   display: none;
