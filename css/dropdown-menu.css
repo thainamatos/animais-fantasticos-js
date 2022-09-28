@@ -28,6 +28,7 @@
     background: #eb5e28;
     border: 2px solid #fefae0;
     z-index: 200;
+    width: 160px;
 }
 
 .dropdown-menu li a:hover{
